@@ -22,11 +22,11 @@ This project is an engineering module built by **DJIDEL Abdelali Rayan** (System
 
 ```mermaid
 graph TD
-    User[User Controls / Sliders / Trajectory Playback] --> IK[Inverse Kinematics Solver (IK)]
-    IK --> Controller[Closed-Loop PID Controllers (Arms 1, 2, 3)]
-    Controller --> Dynamics[Simulink Dynamic Model / Physics Engine]
-    Dynamics --> FK[Forward Kinematics Validation (FK)]
-    FK --> WebGL[Three.js 60FPS WebGL Renderer]
+    User["User Controls / Sliders / Trajectory Playback"] --> IK["Inverse Kinematics Solver (IK)"]
+    IK --> Controller["Closed-Loop PID Controllers (Arms 1, 2, 3)"]
+    Controller --> Dynamics["Simulink Dynamic Model / Physics Engine"]
+    Dynamics --> FK["Forward Kinematics Validation (FK)"]
+    FK --> WebGL["Three.js 60FPS WebGL Renderer"]
 ```
 
 ---
